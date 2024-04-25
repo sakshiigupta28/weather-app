@@ -1,0 +1,28 @@
+.weather {
+    text-align: center;
+    width: 50%;
+    padding: 4rem;
+    border: 1px solid #0099dc;
+    position: absolute;
+    left: 20%;
+    background-color: #E6F5C7;
+    border-radius: 8px;
+    top: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    // background-image: url('C:\Users\sakshi\Documents\SAKSHI\projects\weather\src\assets\nature.jpg');
+  }
+  
+  @media (max-width: 600px) {
+    .weather {
+      padding: 2rem;
+    }
+  }
+  
+  @media (max-width: 426px) {
+    .weather {
+      padding: 0.5rem;
+      width: 70%;
+      margin:  0 auto;
+    }
+  }
+  

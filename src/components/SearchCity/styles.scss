@@ -1,0 +1,30 @@
+.srchCity {
+  .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+        color: #6A9E00;
+  }
+  .input_box {
+    width: 60%;
+    border: 1px solid #6A9E00;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 8px;
+  }
+  .src_btn {
+    background-color: #6A9E00;
+    height: 33px;
+    border-radius: 8px;
+    width: 100px;
+    border: 1px solid #6A9E00;
+  }
+}
+
+@media (max-width: 480px) {
+    .srchCity .heading {
+      font-size: 1.5rem;
+    }
+  }
