@@ -5,7 +5,7 @@ import nature from '../src/assets/nature.jpg'
 function App() {
   return (
     <div className="App">
-    <img className="nature" src={nature}/>
+    <img className="nature" src={nature} alt="nature"/>
      <Weather/>
     </div>
   );
